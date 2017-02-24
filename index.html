@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -14,14 +15,13 @@
 <div class="container">
   <div class="row">
    <div class="col-xs-12 pull-left">
-    <p class="gtitle">Psychic Game</p>
-    <p>Guess what letter I'm thinking of</p>
-    <p>Wins:</p>
-    <p>Losses:</p>
-    <p>Guesses Left:</p>
-    <p>Your Guesses so far:</p>  
-   </div>
-
+      <h1>Psychic Game</h1>
+      <div id="game"></div>
+      <div>
+        <p id="guesses" class="guessessofar"></p>
+        <p id="yourguesses" class="guessessofar"></p>
+      </div>
+    </div>
   </div><!-- row -->   
 </div><!-- content container -->
 
